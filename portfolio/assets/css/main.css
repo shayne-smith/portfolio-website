@@ -2813,7 +2813,14 @@ input, select, textarea {
 		list-style: none;
 	}
 
-		.features li {
+		/* .features li {
+			width: calc(33.33333% - 2em);
+			margin-left: 2em;
+			margin-top: 3em;
+			padding: 0;
+		} */
+
+		.features a {
 			width: calc(33.33333% - 2em);
 			margin-left: 2em;
 			margin-top: 3em;
@@ -3693,10 +3700,15 @@ input, select, textarea {
 		padding: 5em 5em 3em 5em ;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
+		justify-content: center;
+	}
+
+	#footer-section-1 {
+		width: 90%;
 	}
 
 		#footer > * {
-			width: calc(50% - 2em);
+			/* width: calc(50% - 2em); */
 			margin-left: 2em;
 		}
 
